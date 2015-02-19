@@ -1,0 +1,25 @@
+{
+  "name": "ltd-beget/consoletable",
+  "description": "Port of PEAR Console_Table to PHP 5.3+",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Jan Schneider",
+      "email": "jan@horde.org"
+    },
+    {
+      "name": "vladqa",
+      "email": "vkolesnikov@beget.ru"
+    }
+  ],
+  "keywords": ["console", "table"],
+  "license": "BSD",
+  "autoload": {
+    "psr-0": {
+      "LTDBeget\\ConsoleTable": "src"
+    }
+  },
+  "require": {
+    "php": ">=5.3.15"
+  }
+}
