@@ -393,6 +393,9 @@ class ConsoleTable
         foreach ($this->_data as $row) {
             if (is_array($row)) {
                 foreach ($this->_calculateTotals as $columnID) {
+                    if (!isset($totals[$columnID]) {
+                        $totals[$columnID] = 0;
+                    }
                     $totals[$columnID] += $row[$columnID];
                 }
             }
