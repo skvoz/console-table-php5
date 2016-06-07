@@ -1,7 +1,6 @@
 {
   "name": "skvoz/consoletable",
   "description": "Port of PEAR Console_Table to PHP 5.3+",
-  "minimum-stability": "dev",
   "authors": [
     {
       "name": "Jan Schneider",
