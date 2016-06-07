@@ -137,7 +137,7 @@ class ConsoleTable
         $this->_defaultAlign = $align;
         $this->_border       = $border;
         $this->_padding      = $padding;
-        
+
         if (!empty($charset)) {
             $this->setCharset($charset);
         }
@@ -393,7 +393,7 @@ class ConsoleTable
         foreach ($this->_data as $row) {
             if (is_array($row)) {
                 foreach ($this->_calculateTotals as $columnID) {
-                    if (!isset($totals[$columnID]) {
+                    if (!isset($totals[$columnID])) {
                         $totals[$columnID] = 0;
                     }
                     $totals[$columnID] += $row[$columnID];
