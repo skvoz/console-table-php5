@@ -1,5 +1,5 @@
 {
-  "name": "ltd-beget/consoletable",
+  "name": "skvoz/consoletable",
   "description": "Port of PEAR Console_Table to PHP 5.3+",
   "minimum-stability": "stable",
   "authors": [
@@ -10,6 +10,10 @@
     {
       "name": "vladqa",
       "email": "vkolesnikov@beget.ru"
+    },
+    {
+      "name": "skvoz",
+      "email": "skvoz.ne@gmail.ru"
     }
   ],
   "keywords": ["console", "table"],
